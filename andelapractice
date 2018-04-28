@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Made with Thimble</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Welcome to Thimble</h1>
+    <p>
+      Make something <strong>amazing</strong> with the web!
+      <script>
+      var places=['warri','abuja','lagos','ibadan','kano'];
+        [whereilive,whereiwork]=places;
+        places.push('katsina');
+      </script>
+      <script>
+        function ReverseStr(str){
+          var splitString = str.split("");
+          var reverseArray = splitString.reverse();
+          var joinArray = reverseArray.join("");
+          return joinArray;
+        }
+        /*console.log(ReverseStr('toNsIytinutroppOtuBdetubirtsiDylnevEsIecnaillirB'));*/
+      </script>
+      <script>
+        var sum = 0;
+        for (var i = 0; i < 100; i++) {
+          if (i % 5 === 0) {
+            sum += i;
+          }
+        }
+        console.log('Sum: %d', sum);
+      </script>
+    </p>
+  </body>
+</html>
